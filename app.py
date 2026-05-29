@@ -18,8 +18,10 @@ from langchain_classic.chains.combine_documents import create_stuff_documents_ch
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 # --- NEW MEMORY MODULE IMPORTS ---
-from langchain.chains import create_history_aware_retriever
+
+from langchain.chains.history_aware_retriever import create_history_aware_retriever
 from langchain_core.messages import HumanMessage, AIMessage
+
 
 st.set_page_config(page_title="RAG PDF Assistant", layout="wide")
 st.title("📄 PDF Chatbot (100% Free & Online)")
