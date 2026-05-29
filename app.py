@@ -96,7 +96,7 @@ if user_input := st.chat_input("Ask a question about your file..."):
                     # Dynamically instantiate LLM with the provided key
                     llm = load_llm(GROQ_API_KEY)
                     
-                    retriever = st.session_state["vector_store"].as_retriever(search_kwargs={"k": 3})
+                    retriever = st.session_state["vector_store"].as_retriever(search_kwargs={"k": 7})
                     
                     system_prompt = (
                         "You are an assistant for question-answering tasks. "
