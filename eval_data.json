@@ -1,0 +1,10 @@
+[
+  {
+    "input": "How does Galicia compare to Navarre?",
+    "expected_output": "Galicia has 3732 MW of capacity, while Navarre has 238 MW. Galicia suffers a more severe generation drop during dry spells."
+  },
+  {
+    "input": "What are the core recommended actions or strategies to enhance Spain's hydropower resilience?",
+    "expected_output": "Diversification of the renewable energy mix, upgrading existing capacities, and implementing adaptive water management strategies."
+  }
+]
