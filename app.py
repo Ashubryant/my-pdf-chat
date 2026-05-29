@@ -66,7 +66,7 @@ with st.sidebar:
                 st.error("Could not extract any text from this PDF file.")
             else:
                 # Exact Splitter strategy from your original notebook
-                splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=150)
+                splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=300)
                 chunks = splitter.create_documents([transcript])
                 
                 # Build exact FAISS index from your notebook
