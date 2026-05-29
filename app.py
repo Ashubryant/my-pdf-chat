@@ -37,7 +37,7 @@ embeddings = load_embeddings()
 @st.cache_resource
 def load_llm(api_key):
     if api_key:
-        return ChatGroq(model="llama3-8b-8192", groq_api_key=api_key, temperature=0.3)
+        return ChatGroq(model="llama-3.1-8b-instant", groq_api_key=api_key, temperature=0.3)
     return None
 
 # Sidebar: Document Ingestion UI & API key backup input
