@@ -1,10 +1,10 @@
+gepa
 streamlit
 pypdf
-langchain
-langchain-core
-langchain-community
-langchain-classic
 langchain-text-splitters
+langchain-community
 langchain-groq
+langchain-core
+langchain
 faiss-cpu
 sentence-transformers
