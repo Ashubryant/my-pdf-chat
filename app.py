@@ -19,7 +19,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 # --- NEW MEMORY MODULE IMPORTS ---
 
-from langchain.chains.history_aware_retriever import create_history_aware_retriever
+from langchain_classic.chains import create_history_aware_retriever
 from langchain_core.messages import HumanMessage, AIMessage
 
 
