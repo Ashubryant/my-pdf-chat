@@ -82,7 +82,7 @@ with st.sidebar:
 
 # Chat Window Setup
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [{"role": "assistant", "content": "Welcome! Please enter your API Key (if not in settings) and upload a PDF to start chatting."}]
+    st.session_state["messages"] = [{"role": "assistant", "content": "Welcome! Please upload a PDF to start chatting."}]
 
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
