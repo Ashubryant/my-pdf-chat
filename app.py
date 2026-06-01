@@ -24,7 +24,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 
 
 st.set_page_config(page_title="RAG PDF Assistant", layout="wide")
-st.title("📄 PDF Chatbot (100% Free & Online)")
+st.title("📄 DocuGround AI")
 
 # Safe secret loading fallback to prevent Streamlit Secret missing crashes
 try:
