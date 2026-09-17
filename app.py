@@ -39,11 +39,13 @@ def load_embeddings():
 
 embeddings = load_embeddings()
 
+
 # 2. Initialize the Free Cloud LLM via Groq
 @st.cache_resource
 def load_llm(api_key):
     if api_key:
-        return ChatGroq(model="llama-3.1-8b-instant", groq_api_key=api_key, temperature=0.3)
+        # Updated to use your available model ID
+        return ChatGroq(model="openai/gpt-oss-120b", groq_api_key=api_key, temperature=0.3)
     return None
 
 # Sidebar: Document Ingestion UI & API key backup input
